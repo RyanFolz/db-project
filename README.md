@@ -6,7 +6,7 @@ Next, you can open the db-project folder with an IDE. I used Intellij. In the `d
 
 To start the webserver, run the main function in `src/main/java/com/example/springtemplate/DemoApplication.java`
 
-From here, you can open up localhost to view the webpage. The url I used was <http://localhost:63342/db-project/spring-template/src/main/webapp/react/pages/index.html>, but yours could differ.
+From here, you can open up localhost to view the webpage. I usually go to `src/main/webapp/react/pages/index.html` in the directory on the left, right click it, and open with browser.
 
 All the functionality described in P1, P2, and P3 should be there. From each `User`, you can see their `Videos` and `Reactions`. From each `Video`, you can see which `User` made the `Video` and all `Video`s' `Reaction`s. From each `Reaction`, you can see what `Video` it was commented on and which `User` wrote it.
 
