@@ -8,6 +8,6 @@ To start the webserver, run the main function in `src/main/java/com/example/spri
 
 From here, you can open up localhost to view the webpage. I usually go to `src/main/webapp/react/pages/index.html` in the directory on the left, right click it, and open with browser.
 
-All the functionality described in P1, P2, and P3 should be there. From each `User`, you can see their `Videos` and `Reactions`. From each `Video`, you can see which `User` made the `Video` and all `Video`s' `Reaction`s. From each `Reaction`, you can see what `Video` it was commented on and which `User` wrote it.
+There are /users, /videos, and /reactions to view all the users, videos, and reactions. Additionally, all the functionality described in P1, P2, and P3 should be there. From each `User`, you can see their `Videos` and `Reactions`. From each `Video`, you can see which `User` made the `Video` and all `Video`s' `Reaction`s. From each `Reaction`, you can see what `Video` it was commented on and which `User` wrote it.
 
-If you are unable to get the to work, feel free to reach out to me at my school email.
+If you are unable to get the project to work, feel free to reach out to me at my school email.
