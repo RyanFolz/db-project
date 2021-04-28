@@ -1,5 +1,28 @@
 # db-project
 
+# Project Name
+Video uploader
+
+# Team
+Ryan Folz (part of the 3:30pm section)
+
+# Project Description
+This project was meant to mimic some of the text information used in video uploading. There are users who can upload video and react to other videos. Videos belong to a user and can have multiple reactions.
+
+# UML Diagram
+
+See db_design_final_project_UML.pdf
+
+# User data model
+
+A user has fields about their name, username, password, email, and date-of-birth. A user can have many reactions and videos associated with them.
+
+# Domain Objects
+
+There are videos and reactions. A user can have many videos and reaction, and a video can have many reactions.
+
+<h2>Getting Started</h2>
+
 First clone the respository. 
 
 Next, you can open the db-project folder with an IDE. I used Intellij. In the `database` folder there is a exported database containing sample sql data that runs with the project. Import this database to a sql server named `db_design`. The username should be `root` and the password should be `P@ssword`. Explore `src/main/resources/application.properties` if you are unable to get the sql server working with this project.
